@@ -147,3 +147,66 @@ input[type=text], select, textarea{
     font-size: 75px;
     color: maroon;
   }
+
+
+  /** Yooooooh**/
+  .calendarMonth{
+    border-collapse:collapse;
+    background-color:#eef;
+    }
+    .calendarMonth th{
+    }
+    .calendarMonth .calendarTitle{
+    background-color:#ddf;
+    }
+    .calendarMonth .calendarPrevious{
+    background-color:#ddf;
+    }
+    .calendarMonth .calendarNext{
+    background-color:#ddf;
+    }
+    .calendarEmpty{
+    }
+    .calendarDay{
+    background:#fff;
+    border:1px solid black;
+    text-align:center;
+    width:2em;
+    }
+    .days{
+      margin-left: 200px;
+      margin-top: 30px;
+    }
+    .shed{
+      margin-left: 60px;
+      display: inline-block;
+      width: 140px;
+      text-align: right;
+    }
+    .h3{
+      font-size: 40px;
+      text-align: center;
+      color: maroon;
+      margin-top: -10px;
+    }
+    ul{
+      font-size: 16px;
+    }
+    div.settings {
+      display:grid;
+      grid-template-columns: max-content max-content;
+      grid-gap:5px;
+  }
+  div.days label       { text-align:right; }
+  div.days label:after { content: ":"; }
+  .total{
+    margin: 50px;
+  }
+  button{
+    background-color:#04AA6D;
+    color: maroon;
+    height: 50px;
+    width: 290px;
+    margin-top: 18px;
+    box-shadow: black;
+  }
