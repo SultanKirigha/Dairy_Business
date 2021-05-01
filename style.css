@@ -59,3 +59,25 @@ padding-top: 50px;
     font-size: 30px;
     margin-left: 350px;
 }
+.shuffle{
+    width: 100%;
+    height: 500px;
+}
+section{
+    position:relative;
+    height: 900px;
+    background: url("Images/jonas-koel-nnxWQZTmoxQ-unsplash.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h2{
+    font-size: 10vw;
+    color: #000;
+    background: #fff;
+    padding: 10px 40px;
+    mix-blend-mode: screen;
+}
