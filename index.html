@@ -34,6 +34,46 @@
             <h2>Gallery </h2>
         </section>
     </div>
+    <div class="container2">
+      
+        <form  id="myForm" class="form" style="margin-top: 400px; background-color: lightyellow ;">
+            <h1 id="contract">Contract Application Form</h1>
+            <div class="row">
+                <div class="col-25">
+                  <label style="font-size: 30px;color: maroon;">Applicants Names :</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="Names" name="Names" placeholder="Your names..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label style="font-size: 30px;color: maroon;">Company Name :</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="Cname" name="Companyname" placeholder="Company name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label style="font-size: 25px;color: maroon;">Amount of Milk In Liters :</label>
+                </div>
+                <div class="col-75">
+                  <select id="Liters" name="amountLiters">
+                    <option value="australia">0 liters - 100liters</option>
+                    <option value="australia">100 liters - 500liters</option>
+                    <option value="australia">500 liters - 1000liters</option>
+                    <option value="canada">1000 liters - 5000liters</option>
+                    <option value="usa">5000liters - 10,000liters</option>
+                  </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="submit" value="Submit"<button onclick="showAlert()"></button>
+            </div>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

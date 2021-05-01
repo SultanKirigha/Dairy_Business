@@ -36,19 +36,19 @@ body{
 }
 .about{
     box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
 ; 
-margin-top: 165px;
-padding-bottom: 235px;
-padding-left: 126px;
-padding-right: 153px;
-padding-top: -16px;
-padding-top: 50px;
+    margin-top: 165px;
+    padding-bottom: 235px;
+    padding-left: 126px;
+    padding-right: 153px;
+    padding-top: -16px;
+    padding-top: 50px;
     min-height: 200px;
     width: 50vw;
     margin: 100px auto;
@@ -81,3 +81,66 @@ section h2{
     padding: 10px 40px;
     mix-blend-mode: screen;
 }
+.container2{
+    position: relative;
+
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightyellow;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    margin-left: 815px;
+    margin-top: 80px;
+    height: 100px;
+    width: 300px;
+    background-color: #04AA6D;
+    color: maroon;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: lightyellow;
+    padding: 20px;
+  }
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  #contract{
+    text-align: center;
+    font-size: 75px;
+    color: maroon;
+  }
