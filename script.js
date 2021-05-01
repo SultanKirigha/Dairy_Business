@@ -15,4 +15,4 @@ function changeBg(){
     const bg = images[Math.floor(Math.random() * images.length)];
     section.style.backgroundImage = bg;
 }
-setInterval(changeBg, 1000)
+setInterval(changeBg, 1500)
