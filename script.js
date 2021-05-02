@@ -35,24 +35,23 @@ function showAlert()  {
   }
   }
   
-  // Performs an action when a date is clicked
   function dateClicked(day,month,year){
   document.forms.calendar.date.value = day+'/'+month+'/'+year;  
   
   }
   
-  // Sets the displayed month
+
   function setDisplayedMonth(month){
-  if (month<0){
-  alert('You have reached the beginning of this calendar');
-  }else if (month>=months){
-  alert('You have reached the end of this calendar');
-  }else{
-  for (var i=0;i<months;i++){
-  document.getElementById('calendarMonth'+i).style.display='none';
-  }
-  document.getElementById('calendarMonth'+month).style.display='block';
-  }
+      if (month<0){
+          alert('You have reached the beginning of this calendar');
+        }else if (month>=months){
+            alert('You have reached the end of this calendar');
+         }else{
+             for (var i=0;i<months;i++){
+                 document.getElementById('calendarMonth'+i).style.display='none';
+                }
+                document.getElementById('calendarMonth'+month).style.display='block';
+            }
   }
 
   window.onbeforeunload = function() {
@@ -124,4 +123,17 @@ function fn6(){
     var sum = document.getElementById('results5').value = (n21+n22+n23+n24);
     getElementById(results5);
     console.log(sum);  
+}         
+function total(){
+    var results  = parseInt(document.getElementById('results').value);
+    var results1 = parseInt(document.getElementById('results1').value);
+    var results2 = parseInt(document.getElementById('results2').value);
+    var results3 = parseInt(document.getElementById('results3').value);
+    var results4 = parseInt(document.getElementById('results4').value);
+    var results5 = parseInt(document.getElementById('results5').value);
+    if (total == true);
+    var sum = document.getElementById('Week').value = (results +results1 +results2 +results3 +results4 + results5)
+    getElementById(Week);
+    console.log(sum);
+
 }
