@@ -10,7 +10,9 @@ Milky way farm
 >----------------------------
 >
 ### Description
-<font-size:14px>
+@settings {
+  font-size: 14px;
+}
 >A simple farm website that contains the Website logo the name of the farm.
 >It has an About section telling us more about the Farm and its History.
 >The Website also contains a gallery of Pictures of its cattle that is scripted to shuffle after sometime.
