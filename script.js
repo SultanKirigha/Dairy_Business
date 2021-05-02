@@ -144,3 +144,10 @@ function Ksh(){
     getElementById(kshWeek);
     console.log(product)
 }
+function Yr(){
+    var kshWeek = parseInt(document.getElementById('kshWeek').value);
+    if (Yr == true);
+    var multy = document.getElementById('kshYear').value = (kshWeek * 4 * 12);
+    getElementById(kshYear);
+    console.log(multy)
+}
