@@ -1,5 +1,5 @@
 # DAIRY_BUSINESS
-Sultan's farm
+Milky way farm
 
 >Author: Sultan Mwangovya Kirigha
 >
@@ -10,18 +10,24 @@ Sultan's farm
 >----------------------------
 >
 ### Description
->I just landed myself a great deal and acquired a farm upcountry that has dairy cattle.<br>
->These cows are well fed and they produce a fair amount of milk every day.<br>
-> Luckily, Brookside Dairies has also called you in, for yet another deal to sell your milk produce to them for processing.<br>
-> There's one problem though, you're very engaged in a website consultation company which leaves very little time for you to monitor milk production at your farm.<br>
-> Your cows will make you rich if you monitor their milk production and sale.<br>
-> The site I have built using HTML,CSS and Javascript.<br>
-> That helps you monitor production and sales.
+>A simple farm website that contains the Website logo the name of the farm.
+>It has an About section telling us more about the Farm and its History.
+>The Website also contains a gallery of Pictures of its cattle that is scripted to shuffle after sometime.
+>The website contains a small form for anyone who wants to apply for a contract to get Milk supplied to them.
+>It has a weekly report of the Liters of Milk produced daily and calculations on the Total amounts and weekly figures and Yearly figures.
 >---------------------------
->
+## Technologies Used
+>MoringaSchool LMS
+>w3schools
+>You Tube Tutorials
+>GeeksforGeeks
+>------------------------------
+## Dependencies setup & installations
 >Link to deployed page _(click here)_<a href=https://sultanmwangoyakirigha.github.io/Dairy_Business/ title="Title">
 DAIRY_BUSINESS</a>
 >
 >---------------------------
-
-&copy; SultanMwangovyaKirigha| Credits <a href="http://moringaschool.com/" title="Title">MORINGA SCHOOL</a>
+## Contact & License information
+&copy; SultanMwangovyaKirigha| 
+sultankirigha@gmail.com
+Credits to <a href="http://moringaschool.com/" title="Title">MORINGA SCHOOL</a>
