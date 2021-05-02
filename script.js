@@ -137,3 +137,10 @@ function total(){
     console.log(sum);
 
 }
+function Ksh(){
+    var Week = parseInt(document.getElementById('Week').value);
+    if (Ksh == true);
+    var product = document.getElementById('kshWeek').value = (Week * 45);
+    getElementById(kshWeek);
+    console.log(product)
+}
