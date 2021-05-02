@@ -29,5 +29,5 @@ DAIRY_BUSINESS</a>
 >---------------------------
 ## Contact & License information
 &copy; SultanMwangovyaKirigha| 
-sultankirigha@gmail.com
+<a href="sultankirigha@gmail.com">sultankirigha@gmail.com</a>
 Credits to <a href="http://moringaschool.com/" title="Title">MORINGA SCHOOL</a>
