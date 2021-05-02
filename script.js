@@ -54,3 +54,74 @@ function showAlert()  {
   document.getElementById('calendarMonth'+month).style.display='block';
   }
   }
+
+  window.onbeforeunload = function() {
+    return "Dude, are you sure you want to leave? Think of the kittens!";
+}
+
+  function fn1(){
+      var n1 = parseInt(document.getElementById('n1').value);
+      var n2 = parseInt(document.getElementById('n2').value);
+      var n3 = parseInt(document.getElementById('n3').value);
+      var n4 = parseInt(document.getElementById('n4').value);
+      var sum = (n1 + n2 + n3 + n4)
+      if (fn1 == true);
+      var sum = document.getElementById('results').value = (n1+n2+n3+n4);
+      getElementById(results);
+      console.log(sum);    
+  }
+  function fn2(){
+    var n5 = parseInt(document.getElementById('n5').value);
+    var n6 = parseInt(document.getElementById('n6').value);
+    var n7 = parseInt(document.getElementById('n7').value);
+    var n8 = parseInt(document.getElementById('n8').value);
+    var sum = (n5 + n6 + n7 + n8)
+    if (fn2 == true);
+    var sum = document.getElementById('results1').value = (n5+n6+n7+n8);
+    getElementById(results1);
+    console.log(sum);    
+}
+function fn3(){
+    var n9 = parseInt(document.getElementById('n9').value);
+    var n10 = parseInt(document.getElementById('n10').value);
+    var n11 = parseInt(document.getElementById('n11').value);
+    var n12 = parseInt(document.getElementById('n12').value);
+    var sum = (n9 + n10 + n11 + n12)
+    if (fn3 == true);
+    var sum = document.getElementById('results2').value = (n9+n10+n11+n12);
+    getElementById(results2);
+    console.log(sum);    
+}
+function fn4(){
+    var n13 = parseInt(document.getElementById('n13').value);
+    var n14 = parseInt(document.getElementById('n14').value);
+    var n15 = parseInt(document.getElementById('n15').value);
+    var n16 = parseInt(document.getElementById('n16').value);
+    var sum = (n13 + n14 + n15 + n16)
+    if (fn4 == true);
+    var sum = document.getElementById('results3').value = (n13+n14+n15+n16);
+    getElementById(results3);
+    console.log(sum);    
+}
+function fn5(){
+    var n17 = parseInt(document.getElementById('n17').value);
+    var n18 = parseInt(document.getElementById('n18').value);
+    var n19 = parseInt(document.getElementById('n19').value);
+    var n20 = parseInt(document.getElementById('n20').value);
+    var sum = (n17 + n18 + n19 + n20)
+    if (fn5 == true);
+    var sum = document.getElementById('results4').value = (n17+n18+n19+n20);
+    getElementById(results4);
+    console.log(sum);  
+}
+function fn6(){
+    var n21 = parseInt(document.getElementById('n21').value);
+    var n22 = parseInt(document.getElementById('n22').value);
+    var n23 = parseInt(document.getElementById('n23').value);
+    var n24 = parseInt(document.getElementById('n24').value);
+    var sum = (n21 + n22 + n23 + n24)
+    if (fn6 == true);
+    var sum = document.getElementById('results5').value = (n21+n22+n23+n24);
+    getElementById(results5);
+    console.log(sum);  
+}
