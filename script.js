@@ -151,3 +151,36 @@ function Yr(){
     getElementById(kshYear);
     console.log(multy)
 }
+function months(){
+    var month ={
+        January:31,
+        February:29,
+        March:31,
+        April:30,
+        May:31,
+        June:30,
+        July:31,
+        August:31,
+        September:30,
+        October:31,
+        November:30,
+        December:31
+    }
+    if (months == true);
+    var calculate = document.getElementById('Months').value  = (
+        "Your income for January is" + (results * 31),
+        "Your income for February is" + (results * 29),
+        "Your income for March is" + (results * 31),
+        "Your income for April is" + (results * 30),
+        "Your income for May is" + (results * 31),
+        "Your income for June is" + (results * 30),
+        "Your income for July is" + (results * 31),
+        "Your income for August is" + (results * 31),
+        "Your income for September is" + (results * 30),
+        "Your income for October is" + (results * 31),
+        "Your income for November is" + (results * 30),
+        "Your income for December is" +  (results * 31)
+    )
+    getElementById(Months);
+    console.log(calculate)
+}
